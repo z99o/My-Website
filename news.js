@@ -4,6 +4,7 @@ window.addEventListener('click', function(event)
 {
 
   // When the user clicks the post button
+  // (doesn't do anything yet)
   if(event.target.classList.contains("accept-button"))
   {
     console.log("post button clicked");
