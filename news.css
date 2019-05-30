@@ -203,9 +203,12 @@ div {
 
 .comment-container{
   margin: 15px 0px;
-  display: none;
+  /*display: none;*/
 }
 
+.hidden{
+  display: none;
+}
 .date-time {
   font-size: 12px;
   padding-left: 40px;

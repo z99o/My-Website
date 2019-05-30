@@ -1,17 +1,19 @@
-var get_commend = document.getElementById('add-commend');
-var button = document.getElementById('commend-button-id');
-console.log(button);
+window.addEventListener('click', function(event)
+{
+  if(event.target.classList.contains("accept-button"))
+  {
+    console.log("post button clicked");
+  }
 
-
-/*
-button.addEventListener('click',function(){
-  document.getElementById('twit-commend').className = 'visible';
-  console.log('clicked');
+  else if(event.target.classList.contains("view-comments-button"))
+  {
+    viewComments(event);
+  }
 });
-*/
 
-button.onclick = function(){
-  document.getElementById('add-commend').className = 'visible';
-};
-
-a
+function viewComments(event)
+{
+  var post = event.target.parentNode.parentNode;
+  var comments = post.getElementsByClassName("comment-container")[0];
+  comments.classList.toggle("hidden");
+}
