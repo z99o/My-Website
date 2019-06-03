@@ -175,6 +175,7 @@ div {
   float: right;
 }
 
+
 .post-input {
   padding: 5px 10px;
   font-size: 15px;
@@ -202,13 +203,16 @@ div {
 }
 
 .comment-container{
+  border-top: 1px solid gray;
   margin: 15px 0px;
+  padding: 15px 0px;
   /*display: none;*/
 }
 
 .hidden{
   display: none;
 }
+
 .date-time {
   font-size: 12px;
   padding-left: 40px;
