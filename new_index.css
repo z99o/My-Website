@@ -21,10 +21,58 @@
   list-style: none;
 }
 
+<<<<<<< HEAD
 body {
   line-height: 1.9;
   font-family: var(--font-default);
   position: relative;
+=======
+#main_page_content {
+  width: 700px;
+  position: fixed;
+  top: 130px;
+  left:350px;
+  background-color: inherit;
+  min-width:500px;
+  
+}
+
+#main_page_content img{
+  min-width: 500px;
+}
+
+#main_page_content h3{
+  padding: 3%;
+}
+
+#top_news{
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  top: 100px;
+  right:50px;
+  min-width: 200px;
+  background-color: rgb(255,255,255,0);
+}
+
+#top_news a{
+  padding: 5%;
+  text-decoration:none;
+  color: rgb(27, 25, 25); 
+}
+
+#top_news a:hover{
+  color: rgb(36, 172, 226);
+}
+
+#rules{
+  width: 700px;
+  height: 100px;
+  position: fixed;
+  bottom: 5px;
+  right:500px;
+  background-color: inherit;
+>>>>>>> origin/Peter
 }
 
 #sideMenu a {
@@ -95,27 +143,41 @@ div {
 }
 
 /*////////////////////*/
+<<<<<<< HEAD
 .main-page {
   width: 100%;
   background-color: inherit;
   padding: 50px;
   box-sizing: border-box;
   margin: 0;
+=======
+
+/*
+.twit-container {
+  margin: 50px 10%;
+>>>>>>> origin/Peter
   display: block;
   flex-wrap: wrap;
 }
 
 .post {
   flex: 0 1 28%;
+<<<<<<< HEAD
   margin: auto;
   margin-bottom: 10px;
+=======
+  display: flex;
+  margin: 2px;
+>>>>>>> origin/Peter
   padding: 20px;
   border: 1px solid grey;
+  border-radius: 2px;
   background-color: #fff;
   width: 600px;
   border-radius: 5px;
 }
 
+<<<<<<< HEAD
 .comment-button {
   display: flex;
   justify-content: flex-end;
@@ -136,6 +198,22 @@ div {
 
 /*to create the header "create post"*/
 #create-post-header {
+=======
+*/
+
+/* to invisible the Write Something Here*/
+
+/*
+[placeholder]:focus::-webkit-input-placeholder{
+  transition: opacity 0.5s 0.5s ease; 
+  opacity: 0
+}
+*/
+/*to create the header "create post"*/
+
+/*
+#header-input.twit{
+>>>>>>> origin/Peter
   font-size: 15px;
   margin-bottom: 0px;
   border-bottom: hidden;
@@ -145,14 +223,21 @@ div {
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
 }
-
+*/
 /*box for create input */
+<<<<<<< HEAD
 #create-post-input {
+=======
+
+/*
+#input.twit{
+>>>>>>> origin/Peter
   margin-top: 0px;
   border-top: hidden;
   border-top-right-radius: 0px;
   border-top-left-radius: 0px;
 }
+<<<<<<< HEAD
 
 #create-post{
   margin-bottom: 50px;
@@ -191,6 +276,34 @@ div {
   width: 500px;
   word-wrap: break-word;
   border-radius: 5px;
+=======
+*/
+/*button to post */
+
+/*
+.accept-button{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 10px 10px 10px;
+  background-color: #319df6;
+  color: #fff;
+}
+
+.text-input{
+  font-size: 15px;
+  width : 500px;
+}
+
+*/
+/********** write commend ***********/
+/*
+#add-commend.twit{
+  margin-top:0px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-top:none;
+  
+>>>>>>> origin/Peter
 }
 
 .comment-text {
@@ -198,6 +311,7 @@ div {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 15px;
+<<<<<<< HEAD
   margin-bottom: 7px;
   display: inline-block;
 }
@@ -236,3 +350,8 @@ ul.visible {
   border-top-left-radius: 0px;
   border-top: none;
 }
+=======
+}
+
+*/
+>>>>>>> origin/Peter
