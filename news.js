@@ -1,17 +1,15 @@
-var get_commend = document.getElementById('add-commend');
-var button = document.getElementById('commend-button-id');
+var get_comment = document.getElementById('add-comment');
+var button = document.getElementById('comment-button-id');
 console.log(button);
 
 
 /*
 button.addEventListener('click',function(){
-  document.getElementById('twit-commend').className = 'visible';
+  document.getElementById('twit-comment').className = 'visible';
   console.log('clicked');
 });
 */
 
 button.onclick = function(){
-  document.getElementById('add-commend').className = 'visible';
+  document.getElementById('add-comment').className = 'visible';
 };
-
-a

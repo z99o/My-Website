@@ -133,14 +133,14 @@ div {
 
 
 /*////////////////////*/
-.twit-container {
+.post-container {
   margin: 50px 10%;
   display: block;
   flex-wrap: wrap;
   
 }
 
-.twit {
+.post {
   flex: 0 1 28%;
   margin: 2px;
   padding: 20px;
@@ -168,7 +168,7 @@ div {
 }
 
 /*to create the header "create post"*/
-#header-input.twit{
+#header-input.post{
   font-size: 15px;
   margin-bottom: 0px;
   border-bottom: hidden;
@@ -180,7 +180,7 @@ div {
 }
 
 /*box for create input */
-#input.twit{
+#input.post{
   margin-top: 0px;
   border-top: hidden ;
   border-top-right-radius: 0px;
@@ -207,8 +207,8 @@ div {
 }
 
 
-/********* commend input ************/
-.commend-input{
+/********* comment input ************/
+.comment-input{
   font-size: 15px;
   width : 500px;
   height:30px;
@@ -217,8 +217,8 @@ div {
 }
 
 
-/********** write commend ***********/
-#add-commend.twit-commend{
+/********** write comment ***********/
+#add-comment.post-comment{
   margin-top:0px;
   border-top-right-radius: 0px;
   border-top-left-radius: 0px;
@@ -226,7 +226,7 @@ div {
   
 }
 
-.text-input-commend{
+.text-input-comment{
   background-color: rgb(240, 238, 238);
   padding-left:10px;
   padding-right:10px;
@@ -236,7 +236,7 @@ div {
 }
 
 
-.twit-commend{
+.post-comment{
   flex: 0 1 28%;
   margin: 2px;
   padding: 20px;
@@ -248,7 +248,7 @@ div {
   margin-bottom:0px;
   width: 600px;
   border-radius: 5px;
- /***** to make the commend hidden *******/ 
+ /***** to make the comment hidden *******/ 
   display:none;
 }
 
