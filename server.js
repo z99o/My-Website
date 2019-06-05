@@ -1,5 +1,5 @@
 var http = require('http');
-var handler = require('./server_function');
+//var handler = require('./server_function');
 
 
 var path = require('path');
@@ -14,7 +14,11 @@ app.use(express.static('public'));
 
 app.get('/',function(req,res,next){
     console.log("==Server Displaying Index");
-
+    next();
+});
+app.get('*',function(req,res,next){
+    console.log("==Server Displaying 404 Page");
+    next();
 });
 
 app.listen(port, function () {
