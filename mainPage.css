@@ -80,29 +80,42 @@
 #main_page_content {
   width: 700px;
   position: fixed;
-  top: 130px;
+  top: 100px;
   left:350px;
   background-color: inherit;
-  min-width:500px;
   
 }
 
-#main_page_content img{
-  min-width: 500px;
+#main_page_content a{
+  padding: 5%;
+  text-decoration:none;
+  font-size:20px;
+  color: black;
+
 }
 
-#main_page_content h3{
-  padding: 3%;
+#main_page_content a:hover{
+ 
+  color: skyblue;
+  
 }
+
+#main_page_content p{
+ 
+  padding:10px;
+  padding-top:50px;
+  padding-left: 25px;
+  font-size: 17px;
+}
+
+
 
 #top_news{
   width: 300px;
-  height: 300px;
   position: fixed;
-  top: 100px;
-  right:50px;
-  min-width: 200px;
-  background-color: rgb(255,255,255,0);
+  top: 130px;
+  left:1400px;
+  background-color: inherit;
 }
 
 #top_news a{
@@ -116,11 +129,10 @@
 }
 
 #rules{
-  width: 700px;
-  height: 100px;
+  width: 1000px;
   position: fixed;
-  bottom: 5px;
-  right:500px;
+  top: 750px;
+  left: 500px;
   background-color: inherit;
 }
 
